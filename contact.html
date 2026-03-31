@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheVillage — Contact Us</title>
+    <link rel="stylesheet" href="privacy-policy.css" />
+    <style>
+        @font-face {
+            font-family: 'Qurova';
+            src: url('qurova/QurovaDEMO-Regular-BF67a5c637a5dc9.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .logo {
+            font-family: 'Qurova', sans-serif;
+        }
+
+        .contact-form {
+            margin-top: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #4a4aef;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #4a4aef;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #4a4aef, #6b6bff);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .contact-info {
+            background: #f8f9ff;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+            color: #4a4aef;
+        }
+
+        .info-item {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-item strong {
+            min-width: 100px;
+            color: #3a3ad0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">TheVillage</div>
+        <p>Get in Touch With Us</p>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>We're here to help! Reach out to us using the information below or fill out our contact form.</p>
+
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="info-item">
+                <strong>Email:</strong>
+                <span>info@qityol.com</span>
+            </div>
+            <div class="info-item">
+                <strong>Phone:</strong>
+                <span>+1 (206) 880-0587</span>
+            </div>
+            <div class="info-item">
+                <strong>Address:</strong>
+                <span>Seattle, WA</span>
+            </div>
+            <div class="info-item">
+                <strong>Hours:</strong>
+                <span>9AM - 5PM PST</span>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Please select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="billing">Billing Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="partnership">Partnership Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Please describe your inquiry..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+        <h3>How quickly will you respond?</h3>
+        <p>We aim to respond to all inquiries within 24-48 hours during business days.</p>
+
+        <h3>What information should I include in my message?</h3>
+        <p>Please provide as much detail as possible about your inquiry, including any relevant account information or
+            error messages.</p>
+
+        <h3>Do you offer phone support?</h3>
+        <p>Yes, we offer phone support during our business hours. You can reach us at +1 (206) 880-0587.</p>
+
+        <p><a href="index.html">← Back to Privacy Policy</a></p>
+    </main>
+</body>
+
+</html>
