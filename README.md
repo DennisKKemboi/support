@@ -1,1 +1,2 @@
 # privacy-policy
+# support
